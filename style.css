@@ -1,0 +1,117 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    font-size: 4rem;
+    border: 5px solid brown;
+    border-radius: 5px;
+    color: rgb(13, 14, 58);
+    text-shadow: 1rem;
+}
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(89, 56, 88) 0%);
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(9, 3, 4);
+}
+.container{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #6fa9c5;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 50%;   
+}
+h1{
+  display: flex;
+  align-self: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 2 px;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    
+}
+#tb{
+    font-family: 'Times New Roman', Times, serif;
+
+   
+}
+.userinput{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+#textinput{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+   font-display: auto;
+
+}
+#inputbutton{
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid rgb(167, 42, 25);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background: conic-gradient(rgb(161, 221, 134) var(--progress-degree,0%),#6b78ed 0%);
+    flex-direction: column;
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+    
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+h4{
+    font-size: 1rem;
+}
+.stats-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgb(161, 96, 17);
+    width: 200px;
+    max-width: 290px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
