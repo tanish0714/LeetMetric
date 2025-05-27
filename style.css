@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box; /* Add box-sizing to avoid width overflow */
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 h1 {
@@ -23,6 +29,8 @@ body {
   justify-content: center;
   align-items: center;
   color: rgb(9, 3, 4);
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -34,6 +42,8 @@ body {
   width: 50%;
   max-width: 50%;
   padding: 1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .user {
@@ -63,6 +73,7 @@ body {
   font-display: auto;
   border: 1px solid #ccc;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 #inputbutton {
@@ -74,6 +85,7 @@ body {
   color: white;
   font-weight: 600;
   transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
 #inputbutton:hover {
@@ -94,6 +106,7 @@ body {
   font-weight: 700;
   background: conic-gradient(rgb(161, 221, 134) var(--progress-degree, 0%), #6b78ed 0%);
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .circle span {
@@ -107,6 +120,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
 h4 {
@@ -118,6 +132,7 @@ h4 {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
 .card {
@@ -132,6 +147,7 @@ h4 {
   justify-items: center;
   flex-wrap: wrap;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* ======== MOBILE RESPONSIVE ======== */
